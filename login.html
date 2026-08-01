@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechMart - Login</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <!-- Login Container -->
+    <div class="login-container">
+
+        <!-- Login Card -->
+        <div class="login-box">
+
+            <h1>🛒 TechMart</h1>
+            <h2>Login</h2>
+            <p>Welcome back! Please login to continue.</p>
+
+            <form action="/dashboard" method="GET">
+
+                <div class="input-group">
+                    <label>Email Address</label>
+                    <input
+                        type="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        required>
+                </div>
+
+                <div class="input-group">
+                    <label>Password</label>
+                    <input
+                        type="password"
+                        name="password"
+                        placeholder="Enter your password"
+                        required>
+                </div>
+
+                <button type="submit" class="login-btn">
+                    Login
+                </button>
+
+            </form>
+
+            <div class="extra-links">
+
+                <a href="/signup">Create New Account</a>
+
+                <br><br>
+
+                <a href="/">← Back to Home</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="/js/script.js"></script>
+
+</body>
+</html>

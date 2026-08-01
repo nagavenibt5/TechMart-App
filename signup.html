@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechMart - Sign Up</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <!-- Signup Container -->
+    <div class="signup-container">
+
+        <!-- Signup Card -->
+        <div class="signup-box">
+
+            <h1>🛒 TechMart</h1>
+            <h2>Create Account</h2>
+            <p>Join TechMart and start shopping today!</p>
+
+            <form action="/login" method="GET">
+
+                <div class="input-group">
+                    <label>Full Name</label>
+                    <input
+                        type="text"
+                        name="fullname"
+                        placeholder="Enter your full name"
+                        required>
+                </div>
+
+                <div class="input-group">
+                    <label>Email Address</label>
+                    <input
+                        type="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        required>
+                </div>
+
+                <div class="input-group">
+                    <label>Password</label>
+                    <input
+                        type="password"
+                        name="password"
+                        placeholder="Create a password"
+                        required>
+                </div>
+
+                <div class="input-group">
+                    <label>Confirm Password</label>
+                    <input
+                        type="password"
+                        name="confirmPassword"
+                        placeholder="Confirm your password"
+                        required>
+                </div>
+
+                <button type="submit" class="signup-btn">
+                    Create Account
+                </button>
+
+            </form>
+
+            <div class="extra-links">
+
+                <p>Already have an account?</p>
+
+                <a href="/login">Login Here</a>
+
+                <br><br>
+
+                <a href="/">← Back to Home</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="/js/script.js"></script>
+
+</body>
+</html>
